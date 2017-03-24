@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div{width:100px;
+	height:100px;
+	background-color:green;
+	-webkit-animation-name:practice;
+	-webkit-animation-duration:8s;
+}
+
+@-webkit-keyframes practice{
+	0% {background-color:red;}
+	25%{background-color:green;}
+	50%{background-color:blue;}
+	75%{background-color:purple;}
+	100%{background-color:white;}
+}
+
+@keyfames practice{
+	0% {background-color:red;}
+	25%{background-color:green;}
+	50%{background-color:blue;}
+	75%{background-color:purple;}
+	100%{background-color:white;}
+}
