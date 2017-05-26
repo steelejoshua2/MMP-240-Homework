@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+      width:100%;
+	  background-color:#e1c8a0;
+}
+
+body{
+      width:1100px;
+	  background-color:white;
+	  margin:0 auto;
+	  min-height:1600px;
+}
+
+.logo{ 
+      margin-left:100px;
+      margin-top:30px;
+	  }
+
+.name{
+       float:right;
+	   margin-right:460px;
+	   margin-top:80px;
+}
+
+.navbar{
+         background-color:#89e894;
+		 margin-top:30px;
+}
+
+.side{
+       border-right:thin solid black;
+	   text-align:justify;
+	   height:1300px;
+	   margin-right:50px;
+}
+
+.side img{
+           align:center;
+		   margin-left:30px;
+}
+
+.side h3{
+          text-align:center;
+		  text-decoration:underline;
+}
+
+.side p{
+         margin-right:20px;
+		 margin-left:20px;
+}
+
+.half{
+	display: block;
+    margin: 5px 0;
+}
+
+.full{
+	display:block;
+	margin:10px 0;
+}
+
+.welcome{
+            margin-right:200px;
+			margin-left:400px;
+}
+
+.recipes{
+         text-align:justify;
+}
+
+.recipes img:hover{
+                   opacity:0.7;
+				   filter: alpha(opacity=70)
+}
+
+.recipes h1{
+             margin-bottom:40px;
+			 text-decoration:underline;
+}
+
+.contact form{
+               margin-left:300px;
+}
+
+.entry{
+        margin-bottom:5px;
+		margin-left:5px;
+		margin-right:5px;
+		margin-top:15px;
+}
+
+.entry h5{
+           text-align:center;
+		   font-size:24px;
+		   }
+.entry p{
+          text-align:left;
+		  font-size:15px;
+}
+
+.instructions ol{
+                     margin-left:300px;
+}
+
+.instructions ul{
+                 margin-left:300px;
+				 margin-bottom:60px;
+}
+
+.instructions h6{
+               margin-left:500px;
+			   margin-right:300px;
+			   font-size:14px;
+}
+
+.instructions p{
+                 font-size:8px;
+				 float:right;
+				 color:gray;
+				 margin-right:300px
+}
